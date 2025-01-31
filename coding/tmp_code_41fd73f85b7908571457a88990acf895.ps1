@@ -1,0 +1,1 @@
+pip install -qqq yfinance --timeout=60
