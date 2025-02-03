@@ -19,7 +19,8 @@ permissions:
 
 jobs:
   call-openhands-resolver:
-    uses: Aakash-Gramener/agentic-tests/tree/main/.github/workflows/actions.yml@main
+    uses: Aakash-Gramener/agentic-tests/.github/workflows/actions.yml@main
+
     with:
       macro: ${{ vars.OPENHANDS_MACRO || '@openhands-agent' }}
       max_iterations: ${{ fromJson(vars.OPENHANDS_MAX_ITER || 50) }}
