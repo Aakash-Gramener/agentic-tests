@@ -1,4 +1,8 @@
 # Aakash-Gramener/agentic-tests
+## Issues with plot_stock_error.py
+
+1. **No data available for symbols**: The script may not find data for the specified stock symbols (e.g., TSLA, META) for the given date range.
+2. **ValueError**: If no YTD gains are calculated, the script will raise a ValueError when trying to set the y-axis limits for the plot.
 
 This repository contains various Python scripts and modules focusing on automation, testing, and data visualization. Below is a summary of the key components and functionalities.
 
