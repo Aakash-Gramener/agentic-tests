@@ -1,4 +1,47 @@
-# Agentic Code Editor
+# Aakash-Gramener/agentic-tests
+## Issues with plot_stock_error.py
+
+1. **No data available for symbols**: The script may not find data for the specified stock symbols (e.g., TSLA, META) for the given date range.
+2. **ValueError**: If no YTD gains are calculated, the script will raise a ValueError when trying to set the y-axis limits for the plot.
+
+This repository contains various Python scripts and modules focusing on automation, testing, and data visualization. Below is a summary of the key components and functionalities.
+
+## Main Scripts
+
+### Autogen Tool Tests
+- **Autogen_tool_test.py**: Tests for the autogen framework, which is used for generating code and automating tasks.
+- **OpenHands_test.py**: Tests related to the OpenHands framework.
+
+### Autogen Scripts
+- **autogen_auto_edit.py**: Handles automatic editing of code.
+- **autogen_code_critic.py**: Evaluates the quality of generated code.
+- **autogen_editor.py**: Provides functionalities for code editing.
+- **autogen_test.py**: Contains tests for the autogen functionalities.
+
+### Data Visualization
+- **leaderboard.py**: Manages and visualizes leaderboard data.
+- **leaderboard_new.py**: An updated version for leaderboard management.
+- **plot_stock_error.py**: Visualizes stock data and errors.
+
+### Coding Utilities
+- **coding/**: Contains scripts for plotting stock data and temporary code files.
+- **groupchat/**: Includes scripts for analyzing data and generating visualizations based on user input.
+
+## Environment Management
+
+The scripts utilize environment variables for API keys and configurations, ensuring secure access to external services.
+
+## File Handling
+
+Functions for reading and writing files, as well as managing temporary directories, are implemented to facilitate code execution and data management.
+
+## Usage
+
+To use the scripts, ensure that the required environment variables are set and that the necessary dependencies are installed. Run the scripts as needed for testing, data visualization, or automation tasks.
+
+## Contribution
+
+Contributions are welcome! Please create a new branch for any changes and submit a pull request.
 
 ## Option 1: [Swarm(OpenAI)](https://github.com/openai/swarm)
 - Still in experimental stage
