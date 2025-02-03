@@ -19,8 +19,7 @@ permissions:
 
 jobs:
   call-openhands-resolver:
-    uses: ./.github/workflows/actions.yml
-
+  uses: Aakash-Gramener/agentic-tests/.github/workflows/actions.yml@main
 
     with:
       macro: ${{ vars.OPENHANDS_MACRO || '@openhands-agent' }}
